@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="difficulty-panel">
+            <h3>Choose difficulty level</h3>
+            <label class="radio-option">
+                <input type="radio" name="difficulty" value="beginner" checked>
+                <div>Begginer</div>
+            </label>
+            <label class="radio-option">
+                <input type="radio" name="difficulty" value="intermediate">
+                <div>Average</div>
+            </label>
+            <label class="radio-option">
+                <input type="radio" name="difficulty" value="advanced">
+                <div>Intermediate</div>
+            </label>
+        </div>
+
+        <div class="main">
+            <div id="output"></div>
+            <div id="count"></div>
+            <div id="answerInput"></div>
+            <div class="stats">
+                <div id="correct">Correct: </div>
+                <div id="incorrect">Incorrect: </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
